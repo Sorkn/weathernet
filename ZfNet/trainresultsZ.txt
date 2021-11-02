@@ -1,0 +1,144 @@
+Using TensorFlow backend.
+[INFO] loading images...
+[INFO] shuffle images
+[INFO] preprocessing images
+[INFO] intensity changing
+[INFO] making test and training images
+[INFO] converting labels images
+[INFO] done
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:74: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:517: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:4138: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:3976: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:174: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:181: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:186: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+2020-01-29 23:05:28.815959: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  AVX AVX2
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-01-29 23:05:29.001502: I tensorflow/core/common_runtime/process_util.cc:115] Creating new thread pool with default inter op setting: 8. Tune using inter_op_parallelism_threads for best performance.
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:190: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:199: The name tf.is_variable_initialized is deprecated. Please use tf.compat.v1.is_variable_initialized instead.
+
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:206: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:1834: The name tf.nn.fused_batch_norm is deprecated. Please use tf.compat.v1.nn.fused_batch_norm instead.
+
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:133: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:3295: The name tf.log is deprecated. Please use tf.math.log instead.
+
+C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\callbacks.py:1065: UserWarning: `epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+  warnings.warn('`epsilon` argument is deprecated and '
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\tensorflow_core\python\ops\math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:986: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+WARNING:tensorflow:From C:\Users\dima_r1ze5pa\Anaconda3\lib\site-packages\keras\backend\tensorflow_backend.py:973: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+Train on 7393 samples, validate on 1849 samples
+Epoch 1/100
+OMP: Info #212: KMP_AFFINITY: decoding x2APIC ids.
+OMP: Info #210: KMP_AFFINITY: Affinity capable, using global cpuid leaf 11 info
+OMP: Info #154: KMP_AFFINITY: Initial OS proc set respected: 0-7
+OMP: Info #156: KMP_AFFINITY: 8 available OS procs
+OMP: Info #157: KMP_AFFINITY: Uniform topology
+OMP: Info #179: KMP_AFFINITY: 1 packages x 4 cores/pkg x 2 threads/core (4 total cores)
+OMP: Info #214: KMP_AFFINITY: OS proc to physical thread map:
+OMP: Info #171: KMP_AFFINITY: OS proc 0 maps to package 0 core 0 thread 0
+OMP: Info #171: KMP_AFFINITY: OS proc 1 maps to package 0 core 0 thread 1
+OMP: Info #171: KMP_AFFINITY: OS proc 2 maps to package 0 core 1 thread 0
+OMP: Info #171: KMP_AFFINITY: OS proc 3 maps to package 0 core 1 thread 1
+OMP: Info #171: KMP_AFFINITY: OS proc 4 maps to package 0 core 2 thread 0
+OMP: Info #171: KMP_AFFINITY: OS proc 5 maps to package 0 core 2 thread 1
+OMP: Info #171: KMP_AFFINITY: OS proc 6 maps to package 0 core 3 thread 0
+OMP: Info #171: KMP_AFFINITY: OS proc 7 maps to package 0 core 3 thread 1
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 8032 thread 0 bound to OS proc set 0
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 14816 thread 1 bound to OS proc set 2
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 10872 thread 2 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 13360 thread 3 bound to OS proc set 6
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 15212 thread 4 bound to OS proc set 1
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 6124 thread 5 bound to OS proc set 3
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 6768 thread 6 bound to OS proc set 5
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 1900 thread 7 bound to OS proc set 7
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 4000 thread 8 bound to OS proc set 0
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 4368 thread 9 bound to OS proc set 2
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 10404 thread 10 bound to OS proc set 4
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 9112 thread 11 bound to OS proc set 6
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 5480 thread 12 bound to OS proc set 1
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 14568 thread 13 bound to OS proc set 3
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 1048 thread 15 bound to OS proc set 7
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 11364 thread 14 bound to OS proc set 5
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 13556 thread 16 bound to OS proc set 0
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 4296 thread 17 bound to OS proc set 2
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 6868 thread 19 bound to OS proc set 6
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 7892 thread 18 bound to OS proc set 4
+   8/7393 [..............................] - ETA: 15:11:41 - loss: 1.7797 - acc: 0.2500OMP: Info #250: KMP_AFFINITY: pid 4916 tid 14076 thread 20 bound to OS proc set 1
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 2780 thread 23 bound to OS proc set 7
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 6616 thread 21 bound to OS proc set 3
+  16/7393 [..............................] - ETA: 7:43:38 - loss: 1.8313 - acc: 0.1875 OMP: Info #250: KMP_AFFINITY: pid 4916 tid 828 thread 24 bound to OS proc set 0
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 12444 thread 27 bound to OS proc set 6
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 6472 thread 25 bound to OS proc set 2
+  32/7393 [..............................] - ETA: 3:59:20 - loss: 1.7936 - acc: 0.2188OMP: Info #250: KMP_AFFINITY: pid 4916 tid 4132 thread 28 bound to OS proc set 1
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 10400 thread 29 bound to OS proc set 3
+OMP: Info #250: KMP_AFFINITY: pid 4916 tid 8480 thread 30 bound to OS proc set 5
+7393/7393 [==============================] - 1223s 165ms/step - loss: 1.2629 - acc: 0.5144 - val_loss: 1.5175 - val_acc: 0.4667
+Epoch 2/100
+7393/7393 [==============================] - 1081s 146ms/step - loss: 1.1034 - acc: 0.5692 - val_loss: 1.1231 - val_acc: 0.5825
+Epoch 3/100
+7393/7393 [==============================] - 1104s 149ms/step - loss: 1.0251 - acc: 0.6052 - val_loss: 1.1510 - val_acc: 0.5587
+Epoch 4/100
+7393/7393 [==============================] - 1139s 154ms/step - loss: 0.9654 - acc: 0.6253 - val_loss: 1.2330 - val_acc: 0.5154
+Epoch 5/100
+7393/7393 [==============================] - 1121s 152ms/step - loss: 0.8981 - acc: 0.6570 - val_loss: 1.0684 - val_acc: 0.5965
+Epoch 6/100
+7393/7393 [==============================] - 1147s 155ms/step - loss: 0.8347 - acc: 0.6810 - val_loss: 1.2196 - val_acc: 0.5268
+Epoch 7/100
+7393/7393 [==============================] - 1147s 155ms/step - loss: 0.7554 - acc: 0.7093 - val_loss: 1.6507 - val_acc: 0.4954
+Epoch 8/100
+7393/7393 [==============================] - 1144s 155ms/step - loss: 0.6908 - acc: 0.7343 - val_loss: 1.1934 - val_acc: 0.5722
+Epoch 9/100
+7393/7393 [==============================] - 1138s 154ms/step - loss: 0.6173 - acc: 0.7728 - val_loss: 1.3752 - val_acc: 0.5598
+Epoch 10/100
+7393/7393 [==============================] - 1171s 158ms/step - loss: 0.5337 - acc: 0.8067 - val_loss: 4.4044 - val_acc: 0.3678
+Epoch 11/100
+7393/7393 [==============================] - 1184s 160ms/step - loss: 0.4898 - acc: 0.8189 - val_loss: 1.3693 - val_acc: 0.5679
+Epoch 12/100
+7393/7393 [==============================] - 1211s 164ms/step - loss: 0.4029 - acc: 0.8589 - val_loss: 3.5224 - val_acc: 0.4905
+
+Epoch 00012: ReduceLROnPlateau reducing learning rate to 0.0009999999776482583.
+Epoch 13/100
+7393/7393 [==============================] - 1247s 169ms/step - loss: 0.3322 - acc: 0.8948 - val_loss: 1.2907 - val_acc: 0.6057
+Epoch 14/100
+7393/7393 [==============================] - 1252s 169ms/step - loss: 0.1392 - acc: 0.9594 - val_loss: 1.3940 - val_acc: 0.6138
+Epoch 15/100
+7393/7393 [==============================] - 1248s 169ms/step - loss: 0.1054 - acc: 0.9700 - val_loss: 1.4432 - val_acc: 0.6171
+Epoch 00015: early stopping
+[INFO] evaluating network...
+              precision    recall  f1-score   support
+
+      cloudy       0.59      0.62      0.61       566
+       foggy       0.64      0.68      0.65        80
+        rain       0.19      0.18      0.19       115
+        snow       0.67      0.66      0.67       119
+       sunny       0.80      0.78      0.79       597
+     z-other       0.46      0.45      0.45       372
+
+    accuracy                           0.62      1849
+   macro avg       0.56      0.56      0.56      1849
+weighted avg       0.62      0.62      0.62      1849
+
+[INFO] serializing network and label binarizer...

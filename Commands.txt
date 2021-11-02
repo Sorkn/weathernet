@@ -1,0 +1,8 @@
+Alexnet
+python C:\Users\dima_r1ze5pa\Desktop\WeatherNet\Alexnet\ClassifierA.py --image C:\Users\dima_r1ze5pa\Desktop\WeatherNet\TestImage.jpg --model C:\Users\dima_r1ze5pa\Desktop\WeatherNet\Alexnet\Qualifier.model --label-bin C:\Users\dima_r1ze5pa\Desktop\WeatherNet\Alexnet\QualifierLb.pickle
+
+LeNet
+python C:\Users\dima_r1ze5pa\Desktop\WeatherNet\LeNet\ClassifierL.py --image C:\Users\dima_r1ze5pa\Desktop\WeatherNet\TestImage.jpg --model C:\Users\dima_r1ze5pa\Desktop\WeatherNet\LeNet\QualifierL.model --label-bin C:\Users\dima_r1ze5pa\Desktop\WeatherNet\LeNet\QualifierLbL.pickle
+
+ZfNet
+python C:\Users\dima_r1ze5pa\Desktop\WeatherNet\ZfNet\ClassifierZ.py --image C:\Users\dima_r1ze5pa\Desktop\WeatherNet\TestImage.jpg --model C:\Users\dima_r1ze5pa\Desktop\WeatherNet\ZfNet\QualifierZ.model --label-bin C:\Users\dima_r1ze5pa\Desktop\WeatherNet\ZfNet\QualifierLbZ.pickle
