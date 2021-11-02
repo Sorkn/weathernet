@@ -1,6 +1,6 @@
 # WeatherNet
 
-## WHat is it?
+## What is it?
 This is three convolutional neural networks, trained to classify weather (sunny, foggy, rainy, snowy, cloudy or other). First one based on AlexNet architecture, the second one - LeNet, and the third one - ZfNet. Files with code, training results and plots you can find in folders with the name of architecture you are interested in.
 
 ## How to use?
