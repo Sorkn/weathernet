@@ -1,8 +1,10 @@
-Alexnet
-python C:\Users\dima_r1ze5pa\Desktop\WeatherNet\Alexnet\ClassifierA.py --image C:\Users\dima_r1ze5pa\Desktop\WeatherNet\TestImage.jpg --model C:\Users\dima_r1ze5pa\Desktop\WeatherNet\Alexnet\Qualifier.model --label-bin C:\Users\dima_r1ze5pa\Desktop\WeatherNet\Alexnet\QualifierLb.pickle
+Type commands in the shell:
 
-LeNet
-python C:\Users\dima_r1ze5pa\Desktop\WeatherNet\LeNet\ClassifierL.py --image C:\Users\dima_r1ze5pa\Desktop\WeatherNet\TestImage.jpg --model C:\Users\dima_r1ze5pa\Desktop\WeatherNet\LeNet\QualifierL.model --label-bin C:\Users\dima_r1ze5pa\Desktop\WeatherNet\LeNet\QualifierLbL.pickle
+for Alexnet:
+python ..\weathernet\Alexnet\ClassifierA.py --image <way to your jpg> --model ..\Qualifier.model --label-bin ..\weathernet\Alexnet\QualifierLb.pickle
 
-ZfNet
-python C:\Users\dima_r1ze5pa\Desktop\WeatherNet\ZfNet\ClassifierZ.py --image C:\Users\dima_r1ze5pa\Desktop\WeatherNet\TestImage.jpg --model C:\Users\dima_r1ze5pa\Desktop\WeatherNet\ZfNet\QualifierZ.model --label-bin C:\Users\dima_r1ze5pa\Desktop\WeatherNet\ZfNet\QualifierLbZ.pickle
+for LeNet:
+python..\weathernet\LeNet\ClassifierL.py --image <way to your jpg> --model ..\QualifierL.model --label-bin ..\weathernet\LeNet\QualifierLbL.pickle
+
+for ZfNet:
+python ..\weathernet\ZfNet\ClassifierZ.py --image <way to your jpg> --model ..\QualifierZ.model --label-bin ..\weathernet\ZfNet\QualifierLbZ.pickle
